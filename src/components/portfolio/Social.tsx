@@ -53,7 +53,7 @@ export function Social() {
             title="Social Media Grid Design"
             body="Designed cohesive grid layouts that maintain a consistent visual identity and create an engaging, well-structured feed."
             tiles={
-              <img src="./grid.svg" alt="Social media grid design" className="w-full h-auto rounded-md" />
+              <img src="./grid.png" alt="Social media grid design" className="w-full h-auto rounded-md" />
             }
           />
           <Row
