@@ -30,7 +30,7 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
     ],
     links: [
-      { rel: "icon", href: "./public/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "./favicon.ico", type: "image/x-icon" },
     ],
   }),
   component: Index,
