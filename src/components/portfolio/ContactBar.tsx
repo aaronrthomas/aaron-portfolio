@@ -54,9 +54,9 @@ export function ContactBar() {
         <div className="text-center mb-10">
           <img src="./Blue star.svg" alt="" width="68.37" height="68.37" className="w-8 h-8 mx-auto mb-4" />
           <h2 className="font-display text-3xl sm:text-5xl uppercase font-bold leading-[0.9] tracking-[3.93px]">
-            Get in
+            Connect
             <br />
-            Touch
+            With Me
           </h2>
           <p className="mt-4 text-primary/70 text-sm max-w-md mx-auto font-bold">
             Have a project in mind or want to collaborate? Reach out through any of these channels.
