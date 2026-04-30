@@ -3,7 +3,7 @@ import { SectionHeader } from "./SectionHeader";
 export function Brochure() {
   return (
     <section className="bg-background">
-      <SectionHeader id="brochure" line1="Vijanana" line2="Keralam" />
+      <SectionHeader id="brochure" line1="Vijnana" line2="Keralam" />
       <div className="grain px-6 sm:px-10 py-16">
         <div className="mx-auto max-w-6xl flex items-center justify-between text-xs uppercase tracking-[0.2em] text-foreground/60 pb-10">
           <span>Portfolio — Vijnana Keralam</span>

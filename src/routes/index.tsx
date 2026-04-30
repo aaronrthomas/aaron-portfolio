@@ -60,7 +60,7 @@ function Index() {
       </ScrollReveal>
 
       <ScrollReveal animation="fade-in">
-        <Marquee text="Vijanana Keralam" />
+        <Marquee text="Vijnana Keralam" />
       </ScrollReveal>
 
       <ScrollReveal animation="fade-up">
