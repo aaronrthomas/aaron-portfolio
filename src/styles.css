@@ -119,6 +119,15 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  /* Hide default cursor on devices with a mouse */
+  @media (pointer: fine) {
+    *,
+    *::before,
+    *::after {
+      cursor: none !important;
+    }
+  }
+
   h1,
   h2,
   h3,

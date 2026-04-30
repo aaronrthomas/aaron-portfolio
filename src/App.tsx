@@ -10,10 +10,12 @@ import { ThankYou } from "@/components/portfolio/ThankYou";
 import { Marquee } from "@/components/portfolio/Marquee";
 import { LoadingScreen } from "@/components/portfolio/LoadingScreen";
 import { ScrollReveal } from "@/components/portfolio/ScrollReveal";
+import { CustomCursor } from "@/components/portfolio/CustomCursor";
 
 export function App() {
   return (
     <main className="bg-background text-foreground">
+      <CustomCursor />
       <LoadingScreen />
 
       <Hero />

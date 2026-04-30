@@ -34,9 +34,8 @@ export function LoadingScreen() {
 
   return (
     <div
-      className={`fixed inset-0 z-[9999] flex flex-col items-center justify-center transition-all ${
-        fadeOut ? "opacity-0 scale-105" : "opacity-100 scale-100"
-      }`}
+      className={`fixed inset-0 z-[9999] flex flex-col items-center justify-center transition-all ${fadeOut ? "opacity-0 scale-105" : "opacity-100 scale-100"
+        }`}
       style={{
         background: "radial-gradient(ellipse at center, #1a1a2e 0%, #0a0a0f 70%, #000 100%)",
         transitionDuration: "800ms",
@@ -63,7 +62,7 @@ export function LoadingScreen() {
       </div>
 
       {/* Glow behind the A */}
-      <div
+      {/* <div
         className="absolute rounded-full blur-3xl"
         style={{
           width: "300px",
@@ -71,7 +70,7 @@ export function LoadingScreen() {
           background: `oklch(0.58 0.22 280 / ${0.08 + progress * 0.15})`,
           transition: "background 0.3s",
         }}
-      />
+      /> */}
 
       {/* A.svg with liquid fill using CSS mask */}
       <div className="relative w-40 h-36 sm:w-56 sm:h-48">
@@ -182,7 +181,7 @@ export function LoadingScreen() {
         </span>
 
         {/* Progress bar */}
-        <div className="w-40 h-[2px] rounded-full overflow-hidden bg-white/10">
+        {/* <div className="w-40 h-[2px] rounded-full overflow-hidden bg-white/10">
           <div
             className="h-full rounded-full transition-all duration-100"
             style={{
@@ -190,15 +189,15 @@ export function LoadingScreen() {
               background: "linear-gradient(90deg, oklch(0.58 0.22 280), oklch(0.7 0.2 290))",
             }}
           />
-        </div>
+        </div> */}
 
         {/* Percentage */}
-        <span
+        {/* <span
           className="font-display text-xs uppercase tracking-[0.4em]"
           style={{ color: "oklch(0.58 0.22 280 / 0.5)" }}
         >
           {Math.round(fillPercent)}%
-        </span>
+        </span> */}
       </div>
 
       <style>{`
